@@ -54,6 +54,7 @@
 
 .lista-menu-titulo{
     color: var(--cor-titulos);
+    font-weight: 700;
 }
 
 .lista-menu-link{
