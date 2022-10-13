@@ -1,4 +1,6 @@
 @import url("styles/header.css");
+@import url("styles/banner.css");
+@import url("styles/carrosel.css");
 
 *{
     margin: 0;
@@ -11,9 +13,13 @@
     --cor-da-caixa-titulo: #002F52;
     --cor-titulos: #EB9B00;
     --branco: #FFFFFF;
+    --fonte-principal: "Poppins";
 }
 
 body{
     background: var(--cor-do-fundo);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
 }
 
