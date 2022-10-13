@@ -104,6 +104,52 @@
           </div>
     </section>
 
+    <section class="carrossel">
+        <h2 class="carrossel-titulo">Mais Vendidos</h2>
+        <div class="swiper">
+            <!-- Additional required wrapper -->
+             <!-- If we need pagination -->
+             <div class="swiper-pagination"></div>
+             
+            <div class="swiper-wrapper">
+              <!-- Slides -->
+              <div class="swiper-slide"><img src="./imagens/Guia Front-end.png" alt="Imagem do livro javascript"></div>
+              <div class="swiper-slide"><img src="./imagens/MEAN.png" alt="Imagem do livro Apache Kafka "></div>
+              <div class="swiper-slide"><img src="./imagens/Angular (1).png" alt="Imagem do livro Guia Front-end"></div>
+              <div class="swiper-slide"><img src="./imagens/Acessibilidade.png" alt="Imagem do livro sobre Liderança"></div>
+            </div>
+           
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+          </div>
+
+          <div class="card">
+            <!--primeira linha-->
+            <div class="card-descricao">
+                <!--primeira coluna-->
+                <div class="descricao-1">
+                    <img src="./imagens/Estrelinhas.png" alt="5 estrelas de classificação">
+                    <h3 class="descricao-titulo">Autora do Mês</h3>
+                    <h2 class="descricao-titulo-livro">Juliana Agarikov</h2>
+                    <p class="descricao-texto">Analista de sistemas e escritora, Juliana é especialista em Front-End.</p>
+                </div>
+                <!--segunda coluna-->
+                <img src="./imagens/Perfil-escritora 1.png" alt="">
+            </div>
+            <!--segunda linha-->
+            <div class="card-botoes">
+                <!--primeira coluna-->
+                <ul class="botoes">
+                    <li class="botoes-item"><img src="./imagens/Favoritos.svg" alt="favoritas livro"></li>
+                    <li class="botoes-item"><img src="./imagens/Compras.svg" alt="adicionar no carrinho de compras"></li>
+                </ul>
+                <!--segunda coluna-->
+                <a href="#" class="botoes-ancora">Saiba mais</a>
+            </div>
+          </div>
+    </section>
+
     <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
     <script>
         const swiper = new Swiper('.swiper', {

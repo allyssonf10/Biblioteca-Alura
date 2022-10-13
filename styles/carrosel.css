@@ -35,7 +35,7 @@
 
 .botoes{
     display: flex;
-    margin-top: 1em;
+    margin-top: 2em;
 }
 
 .botoes-item{
@@ -59,6 +59,7 @@
     color: var(--cor-da-caixa-titulo);
     font-weight: 700;
     font-size: 18px;
+    margin: 0.5em 0;
 }
 
 .descricao-texto{
@@ -72,6 +73,6 @@
     color: var(--branco);
     font-weight: 700;
     text-decoration: none;
-    margin-top: 1em;
+    margin-top: 2em;
 }
-    
+
