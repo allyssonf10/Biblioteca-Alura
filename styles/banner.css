@@ -1,5 +1,5 @@
 .baner{
-    background: var(--cor-da-caixa-titulo);
+    background: var(--azul-degrade);
     color: var(--branco);
     text-align: center;
     padding: 2.5em 2em;
@@ -20,7 +20,7 @@
     padding: 3%;
     color: var(--branco);
     border-radius: 50px;
-    background: var(--cor-da-caixa-titulo);
+    background: var(--azul-degrade);
     border: 1px solid var(--branco);
     margin-top: 1em;
 }
