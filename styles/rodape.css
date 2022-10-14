@@ -11,3 +11,47 @@ hr{
     font-size: 16px;
     font-weight: 400;
 }
+
+.rodape-colunas{
+    display: none;
+}
+
+
+@media screen and (min-width: 1024px) {
+
+    .rodape-grid{
+        display: grid;
+        grid-template-columns: 25% 25% 25% 25%;
+    }
+
+    .rodape-titulo{
+        font-size:24px; ;
+    }
+
+    .rodape-subtitulo{
+        font-size: 14px;
+        font-weight: 400;
+        color: var(--cinza-claro);
+        margin-bottom: 1em;
+        text-transform: uppercase;
+    }
+
+    .rodape-colunas{
+        display: block;
+        margin-bottom: 2em;
+    }
+
+    .rodape-item{
+        list-style-type: none;
+        display: flex;
+        align-items: center;
+        padding: 1em 0;
+    }
+
+    .rodape-link{
+        color: var(--cinza);
+        text-decoration: none;
+        margin-left: 15px;
+    }
+    
+}

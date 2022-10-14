@@ -36,3 +36,29 @@
     color: var(--cor-da-caixa-titulo) ;
     padding-left: 2em;
 }
+
+@media screen and (min-width:1024px) {
+    .contato{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .contato-descricao{
+        margin-right: 1em;
+        width: 30%;
+    }
+
+    .contato-titulo{
+        font-size: 24px;
+    }
+
+    .contato-texto{
+        flex-wrap:wrap ;
+    }
+
+    .contato-email{
+        width: 30%;
+    }
+    
+}

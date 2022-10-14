@@ -17,7 +17,7 @@
 
 .baner-pesquisa{
     width: 100%;
-    padding: 3%;
+    padding: 1em;
     color: var(--branco);
     border-radius: 50px;
     background: var(--azul-degrade);
@@ -34,4 +34,18 @@
     background-image: url(../imagens/Pesquisa.svg);
     background-repeat: no-repeat;
     background-position: 1em;
+}
+
+@media screen and (min-width: 1024px) {
+    .baner-titulo{
+        font-size: 37px;
+    }
+    
+    .baner-pesquisa{
+        width: 50%;
+    }
+
+    .baner-pesquisa::placeholder{
+        background-position: 6em;
+    }
 }
