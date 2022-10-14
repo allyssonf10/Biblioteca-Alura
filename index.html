@@ -69,10 +69,19 @@
         </ul>
 
         <div class="conteiner">
-          <a href="#"><img src="./imagens/Favoritos.svg" alt="Meus favoritos" class="conteiner-imagem coracao"></a>
-        <a href="#"><img src="./imagens/Compras.svg" alt="Carrinhos de compras" class="conteiner-imagem"></a>
-        <a href="#"><img src="./imagens/Usuário.svg" alt="Meu perfil" class="conteiner-imagem"></a>
+          <a href="#" >
+            <img src="./imagens/Favoritos.svg" alt="Meus favoritos" class="conteiner-imagem coracao">
+        </a>
+        <a href="#" class="container-link">
+            <img src="./imagens/Compras.svg" alt="Carrinhos de compras" class="conteiner-imagem">
+            <p class="container-texto">Minha sacola</p>
+        </a>
+        <a href="#" class="container-link">
+            <img src="./imagens/Usuário.svg" alt="Meu perfil" class="conteiner-imagem">
+            <p class="container-texto">Meu perfil</p>
+        </a>
         </div>
+
     </header>   
     <section class="baner">
         <h2 class="baner-titulo">Já sabe por onde começar?</h2>
@@ -82,60 +91,63 @@
 
     <section class="carrossel">
         <h2 class="carrossel-titulo">Últimos Lançamentos</h2>
-        <div class="swiper">
-            <!-- Wrapper adicional necessário -->
-             <!-- Se precisarmos de paginação -->
-             <div class="swiper-pagination"></div>
-             
-            <div class="swiper-wrapper">
-              <!-- Slides -->
-              <div class="swiper-slide"><img src="./imagens/Javascript.png" alt="Imagem do livro javascript"></div>
-              <div class="swiper-slide"><img src="./imagens/ApacheKafka.png" alt="Imagem do livro Apache Kafka "></div>
-              <div class="swiper-slide"><img src="./imagens/Guia Front-end.png" alt="Imagem do livro Guia Front-end"></div>
-              <div class="swiper-slide"><img src="./imagens/Liderança.png" alt="Imagem do livro sobre Liderança"></div>
-              <div class="swiper-slide"><img src="./imagens/Portugol.png" alt="Imagem do livro sobre Portugol"></div>
-              <div class="swiper-slide"><img src="./imagens/UX.png" alt="Imagem do livro de UX"></div>
-              <div class="swiper-slide"><img src="./imagens/Tuning.png" alt="Imagem do livro de Tuning"></div>
-              <div class="swiper-slide"><img src="./imagens/Nodejs.png" alt="Imagem do livro sobre Nodejs"></div>
-              <div class="swiper-slide"><img src="./imagens/MetricasAgeis.png" alt="Imagem do livro de Metricas Ageis"></div>
-              <div class="swiper-slide"><img src="./imagens/Gestão.png" alt="Imagem do livro sobre Gestão"></div>
-              <div class="swiper-slide"><img src="./imagens/Gestão2.png" alt="Imagem do livro Gestão 2"></div>
-              <div class="swiper-slide"><img src="./imagens/Construct2.png" alt="Imagem do livro de Construct 2"></div>
-              <div class="swiper-slide"><img src="./imagens/Arquitetura.png" alt="Imagem do livro Arquitetura"></div>
-            </div>
-           
-            <!-- Se precisarmos de botões de navegação -->
-            <div class="swiper-button-prev"></div>
-            <div class="swiper-button-next"></div>
-          </div>
-
-          <div class="card">
-            <!--primeira linha-->
-            <div class="card-descricao">
-                <!--primeira coluna-->
-                <div class="descricao">
-                    <h3 class="descricao-titulo">Talvez você tamém se interesse por...</h3>
-                    <h2 class="descricao-titulo-livro">Angular 11 e Firebase</h2>
-                    <p class="descricao-texto">Construindo uma aplicação integrada com a plataforma do Google.</p>
+        <div class="carrossel-container">
+            <div class="swiper">
+                <!-- Wrapper adicional necessário -->
+                <!-- Se precisarmos de paginação -->
+                <div class="swiper-pagination"></div>
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide"><img src="./imagens/Javascript.png" alt="Imagem do livro javascript"></div>
+                    <div class="swiper-slide"><img src="./imagens/ApacheKafka.png" alt="Imagem do livro Apache Kafka "></div>
+                    <div class="swiper-slide"><img src="./imagens/Guia Front-end.png" alt="Imagem do livro Guia Front-end"></div>
+                    <div class="swiper-slide"><img src="./imagens/Liderança.png" alt="Imagem do livro sobre Liderança"></div>
+                    <div class="swiper-slide"><img src="./imagens/Portugol.png" alt="Imagem do livro sobre Portugol"></div>
+                    <div class="swiper-slide"><img src="./imagens/UX.png" alt="Imagem do livro de UX"></div>
+                    <div class="swiper-slide"><img src="./imagens/Tuning.png" alt="Imagem do livro de Tuning"></div>
+                    <div class="swiper-slide"><img src="./imagens/Nodejs.png" alt="Imagem do livro sobre Nodejs"></div>
+                    <div class="swiper-slide"><img src="./imagens/MetricasAgeis.png" alt="Imagem do livro de Metricas Ageis"></div>
+                    <div class="swiper-slide"><img src="./imagens/Gestão.png" alt="Imagem do livro sobre Gestão"></div>
+                    <div class="swiper-slide"><img src="./imagens/Gestão2.png" alt="Imagem do livro Gestão 2"></div>
+                    <div class="swiper-slide"><img src="./imagens/Construct2.png" alt="Imagem do livro de Construct 2"></div>
+                    <div class="swiper-slide"><img src="./imagens/Arquitetura.png" alt="Imagem do livro Arquitetura"></div>
                 </div>
-                <!--segunda coluna-->
-                <img src="./imagens/Angular.png" alt="">
+           
+                <!-- Se precisarmos de botões de navegação -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
             </div>
-            <!--segunda linha-->
-            <div class="card-botoes">
-                <!--primeira coluna-->
-                <ul class="botoes">
-                    <li class="botoes-item"><img src="./imagens/Favoritos.svg" alt="favoritas livro"></li>
-                    <li class="botoes-item"><img src="./imagens/Compras.svg" alt="adicionar no carrinho de compras"></li>
-                </ul>
-                <!--segunda coluna-->
-                <a href="#" class="botoes-ancora">Saiba mais</a>
+
+            <div class="card">
+                <!--primeira linha-->
+                <div class="card-descricao">
+                    <!--primeira coluna-->
+                    <div class="descricao">
+                        <h3 class="descricao-titulo">Talvez você tamém se interesse por...</h3>
+                        <h2 class="descricao-titulo-livro">Angular 11 e Firebase</h2>
+                        <p class="descricao-texto">Construindo uma aplicação integrada com a plataforma do Google.</p>
+                    </div>
+                    <!--segunda coluna-->
+                    <img src="./imagens/Angular.png" alt="" class="descricao-img">
+                </div>
+                <!--segunda linha-->
+                <div class="card-botoes">
+                    <!--primeira coluna-->
+                    <ul class="botoes">
+                        <li class="botoes-item"><img src="./imagens/Favoritos.svg" alt="favoritas livro"></li>
+                        <li class="botoes-item"><img src="./imagens/Compras.svg" alt="adicionar no carrinho de compras"></li>
+                    </ul>
+                    <!--segunda coluna-->
+                    <a href="#" class="botoes-ancora">Saiba mais</a>
+                </div>
             </div>
-          </div>
+        </div>  
     </section>
 
     <section class="carrossel">
+        
         <h2 class="carrossel-titulo">Mais Vendidos</h2>
+        <div class="carrossel-container">
         <div class="swiper">
             <!-- Wrapper adicional necessário -->
              <!-- Se precisarmos de paginação -->
@@ -178,6 +190,7 @@
                 <a href="#" class="botoes-ancora">Saiba mais</a>
             </div>
           </div>
+        </div>
     </section>
 
     <section class="topicos">
@@ -297,9 +310,10 @@
     <script>
         const swiper = new Swiper('.swiper', {
             spaceBetween: 50,
-            slidesPerView: 3,pagination: {
-            el: '.swiper-pagination',
-            type: 'bullets',
+            slidesPerView: 3,
+            pagination: {
+                el: '.swiper-pagination',
+                type: 'bullets',
             },
         });
     </script>

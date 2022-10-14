@@ -55,3 +55,18 @@ hr{
     }
     
 }
+
+@media screen and (min-width: 1728px){
+    .rodape-colunas{
+        border-left: 1px solid var(--cinza-claro);
+        padding: 1em;
+    }
+
+    .rodape-titulo{
+        padding: 0 0 0 2em ;
+    }
+
+    .rodape-grid{
+        padding: 2em 0;
+    }
+}
